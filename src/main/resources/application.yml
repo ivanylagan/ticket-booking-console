@@ -1,0 +1,6 @@
+server:
+  port: 8081
+app:
+  properties:
+    backend-url: ${BACKEND_SERVER_URL:http://localhost:8080}
+    backend-root-context: ${BACKEND_ROOT_CONTEXT:/api/v1}
