@@ -1,7 +1,5 @@
 package org.jpmc;
 
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import org.jpmc.api.request.CancelTicketRQ;
 import org.jpmc.api.request.EventRQ;
 import org.jpmc.api.request.TicketRQ;
@@ -65,7 +63,6 @@ public class TicketBookingConsoleApplication implements CommandLineRunner {
 				break;
 			}
 		}
-		return;
 	}
 
 	String displayMainMenu() {

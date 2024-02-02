@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>org.jpmc</groupId>
 	<artifactId>ticket-booking-console</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>ticket-booking-console</name>
 	<description>Ticket Booking Console</description>
 	<properties>
