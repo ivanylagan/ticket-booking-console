@@ -12,6 +12,8 @@ public class TicketDetailsRS {
     private String seatNumber;
     private Date bookingTimestamp;
 
+    public TicketDetailsRS() {}
+
     public TicketDetailsRS(String ticketNumber, String seatNumber, Date bookingTimestamp) {
         this.ticketNumber = ticketNumber;
         this.seatNumber = seatNumber;

@@ -9,6 +9,8 @@ import com.fasterxml.jackson.databind.annotation.JsonNaming;
 public class TicketBookingErrorMessage {
 
 
+    public TicketBookingErrorMessage() {}
+
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private String message;
 
